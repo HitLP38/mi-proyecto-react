@@ -1,0 +1,23 @@
+/* custom.css */
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://source.unsplash.com/1600x900/?coding,technology") center/cover
+      no-repeat;
+}
+
+.hero-bg h1,
+.hero-bg p {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
